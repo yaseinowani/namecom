@@ -33,5 +33,14 @@ npm run dev
 npm run build
 ```
 
+## GitHub Pagesへの公開手順
+
+このリポジトリには、GitHubにプッシュするだけで自動ビルド・公開されるGitHub Actionsワークフロー（`.github/workflows/deploy.yml`）が含まれています。
+
+1. GitHubのリポジトリページで **Settings** タブを開く
+2. 左メニューの **Pages** をクリック
+3. **Build and deployment** の **Source** を `Deploy from a branch` から **`GitHub Actions`** に変更する
+4. コードを `main` ブランチにプッシュすると、自動的にビルドが走り数十秒〜1分ほどでサイトが表示されるようになります！
+
 ## ライセンス
 MIT License
