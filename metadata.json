@@ -1,0 +1,8 @@
+{
+  "name": "名前査定ドットコム",
+  "description": "名前を入力するだけで、あなたの架空の市場価値とステータスを面白おかしく査定するエンタメサイトです。",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
